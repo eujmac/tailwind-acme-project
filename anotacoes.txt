@@ -1,0 +1,10 @@
+npm init -y
+npm i -D tailwindcss
+npm i -D prettier-plugin-tailwindcss
+npx tailwindcss init
+configurar tailwind.config.js
+pasta src com input.css
+pasta build com o css quer será buildado pelo tailwind e os htmls
+
+npx tailwindcss -i ./src/input.css -o ./build/css/style.css
+npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch
